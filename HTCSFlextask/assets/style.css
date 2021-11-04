@@ -35,12 +35,13 @@ img.promotion {
   width: 1200px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .col {
   display: flex;
   margin-bottom: 20px;
   width: 600px;
-  height: 250px;
+  height: 260px;
 }
 a{
   display: flex;
