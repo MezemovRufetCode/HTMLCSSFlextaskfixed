@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1350px;
+  height: 100vh;
+}
+.promotion {
+  margin-left: 58px;
+  font-family: Lato, sans-serif;
+}
+img.promotion {
+  display: block;
+  height: 5px;
+  width: 200px;
+}
+.desc::first-line {
+  font-size: 40px;
+  font-weight: 400;
+}
+#codeA {
+  font-size: 50px;
+  font-weight: 800;
+}
+.info {
+  margin-top: 25px;
+  width: 50%;
+}
+.cols {
+  margin-top: 80px;
+  margin-left: 40px;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  display: flex;
+  margin-bottom: 20px;
+  width: 600px;
+  height: 250px;
+}
+a{
+  display: flex;
+  text-decoration: none;
+}
+.col:hover {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(212, 211, 211, 0.2),
+    0 6px 20px 0 rgba(212, 211, 211, 0.2);
+    transition:.5s;
+}
+.primage {
+  left: 20px;
+  top: 20px;
+  width: 200px;
+  height: 190px;
+  object-fit:cover;
+}
+.eduinfo {
+  margin-top: 45px;
+  margin-left: 30px;
+  width: 300px;
+  height: 100px;
+  font-weight: 400;
+  font-family: Lato, sans-serif;
+}
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+.image {
+  width: 200px;
+  height: 190px;
+  display: inline-block;
+}
+a:visited{
+    color: black;
+}
